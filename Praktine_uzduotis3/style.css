@@ -1,0 +1,255 @@
+body {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+.Navigation-bar {
+    margin:0;
+    background-color: rgba(167, 166, 166, 0.972);
+}
+
+.Navigation-bar img {
+    padding-left: 50px ;
+    height: 70px;
+}
+
+
+.Navigation-bar ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: inline-block
+    
+}
+
+.Navigation-bar li {
+    display: inline;
+    padding-right: 20px;
+}
+
+.Navigation-bar a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.About-me {
+    padding: 55px;
+}
+
+.About-me img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+.Flower-photo img {
+    display: block;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 95%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.User-photo img, h1 {
+    display: inline-block;   
+}
+
+h1 {
+    padding-left: 20px;
+    
+}
+
+.flex-container {
+    display: flex;
+    flex-direction:row;
+    margin: 60px;
+    gap: 200px;
+    justify-content: space-around;
+    text-align: end;
+}
+
+
+.Photo-number1 {
+    background-image: url(./1.jpg);
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 250px;
+    height: 180px;
+    color: white;
+}
+
+.Photo-number2 {
+    background-image: url(./2.jpg);
+    object-fit:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 250px;
+    height: 180px;
+    color: white;
+}
+
+.Photo-number3 {
+    background-image: url(./3.jpg);
+    object-fit:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 250px;
+    height: 180px;
+    color: white;
+}
+
+@media only screen and (max-width:768px) {
+
+    .About-me {
+        padding: 55px;
+        align-items: center;
+    }
+    
+    .About-me img {
+        height: 100px;
+        width: 100px;
+        object-fit: cover;
+        border-radius: 50%;
+    
+    }
+
+    .Flower-photo img {
+        display: block;
+        margin-left: 40px;
+        margin-right: 40px;
+        width: 95%;
+        height: 150px;
+        object-fit: cover;
+    }
+    
+    .User-photo img, h1 {
+        display: inline-block;   
+    }
+    
+    h1 {
+        padding-left: 20px;
+        
+    }
+    
+    .flex-container {
+        display: flex;
+        flex-direction:row-reverse;
+        align-self: flex-end;
+        justify-content:space-around;
+        margin: 60px;
+        gap: 100px;
+        text-align: end;
+        flex-wrap: wrap-reverse;
+    }
+
+.Photo-number1 {
+    background-image: url(./1.jpg);
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content:space-around;
+    width: 250px;
+    height: 180px;
+    color: white;
+}
+
+.Photo-number2 {
+    background-image: url(./2.jpg);
+    object-fit:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content:space-around;
+    width: 250px;
+    height: 180px;
+    color: white;
+    }
+
+
+.Photo-number3 {
+    background-image: url(./3.jpg);
+    object-fit:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content:space-around;
+    flex-wrap: wrap-reverse;
+    width: 250px;
+    height: 180px;
+    color: white;
+}
+
+
+
+}
+
+@media only screen and (max-width:576px) {
+    
+    .Navigation-bar li {
+        padding-right: 20px;
+    }
+    
+    .Navigation-bar a {
+        text-decoration: none;
+        color: black;
+        display: none;
+    }
+
+    .Navigation-bar img {
+        display: flex;
+        justify-self: center;
+        padding-left: 230px ;
+        height: 70px;
+    }
+
+
+    .flex-container {
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        margin: 60px;
+        gap: 100px;
+        text-align: end;
+    }
+
+    .Photo-number1 {
+        display: flex;
+        background-image: url(./1.jpg);
+        align-items: center;
+        object-fit: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 250px;
+        height: 180px;
+        color: white;
+    }
+    
+    .Photo-number2 {
+    display: flex;
+    background-image: url(./2.jpg);
+    object-fit:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 250px;
+    height: 180px;
+    color: white;
+    }
+    
+    .Photo-number3 {
+        display: flex;
+        background-image: url(./3.jpg);
+        object-fit:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 250px;
+        height: 180px;
+        color: white;
+    }
+    
+
+}
