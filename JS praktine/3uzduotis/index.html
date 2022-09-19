@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        div{
+            background-color: rgb(255, 34, 34);
+        }
+    </style>
+    <title>Kvadratas</title>
+</head>
+
+<body>
+    <button>Click Here!</button>
+    <script>
+        const btn = document.querySelector('button');
+        const body = document.querySelector('body');
+
+        btn.addEventListener("click", myFunction);
+
+        let square = 20;
+
+        function myFunction() {
+            let div = document.createElement('div');
+            div.style.height = `${square}px`;
+            div.style.width = `${square}px`;
+            body.appendChild(div);
+            square += 20;
+        }
+    </script>
+</body>
+
+</html>
